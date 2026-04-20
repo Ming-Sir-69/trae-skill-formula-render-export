@@ -60,7 +60,7 @@ $$
 
 ### Step 1：确认输入路径与目标输出目录
 默认约定：
-- 输入 md：`item_fille/90min-通用制造模板-SkillFirst/outputs/<你的公式文件>.md`
+- 输入 md：`<project_root>/outputs/<你的公式文件>.md`
 - 输出目录：`.../outputs/svg_out_clean/` 与 `.../outputs/png_out_clean/`
 
 如用户未给出输入文件：
@@ -94,5 +94,5 @@ $$
 4) 记录到：
    - `outputs/README.md`（交付目录说明）
    - `project_context/00_Global_Dialogue_Transcript.md`（无损追加本轮动作与产物路径）
-   - 若出现新坑：追加到 `item_fille/00_error/90min-通用制造模板-SkillFirst/` 的**单文件**并按日期更新文件名。
+   - 若出现新坑：追加到 `<project_root>/00_error/90min-通用制造模板-SkillFirst/` 的**单文件**并按日期更新文件名。
 
